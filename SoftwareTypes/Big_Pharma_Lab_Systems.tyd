@@ -1,0 +1,207 @@
+SoftwareType
+{
+	Name "Lab Systems"
+	Description "All systems relating to laboratory research."
+	Random 0.18
+	Popularity 0.60
+	Retention 24
+	IdealPrice 90
+	OptimalDevTime 40
+	OSSupport [ Computer; Phone ]
+	InHouse True
+	SubmarketNames [ Reliability; Convenience; Informational ]
+	Categories
+	    [
+	        {
+	        Name            "Patient Intake"
+	        Description     "Patient intake portal for obtaining information for trials."
+	        Retention       24
+	        Iterative       1
+	        Submarkets      [ 1; 1; 1 ]
+	        NameGenerator   Big_Pharma_LabSys_Generator
+	        }
+	        {
+	        Name            "Compliance Software"
+	        Description     "Software that helps mandate and follow regulations by the government regarding medical compliance."
+	        Retention       24
+	        Iterative       1
+	        Submarkets      [ 1; 1; 1 ]
+	        NameGenerator   Big_Pharma_LabSys_Generator
+	        }
+	        {
+	        Name            "Medical R&D Portal"
+	        Description     "Portal to handle all things related to Research and Development of new medical equipment or drugs."
+	        Retention       24
+	        Iterative       1
+	        Submarkets      [ 1; 1; 1 ]
+	        NameGenerator   Big_Pharma_LabSys_Generator
+	        }
+	    ]
+	Features
+    [
+    	{
+    		Name Interface
+    		Spec 2D
+    		DevTime 4
+    		CodeArt 0.9
+    		Submarkets [ 1; 1; 1 ]
+    		Dependencies "2D Editor"
+    		Features
+    		[
+    			{
+    				Name "System Dashboard Interface"
+    				Description "Unified dashboard for navigating lab, compliance, and research systems."
+    				DevTime 5
+    				Level 1
+    				CodeArt 0.9
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    			{
+    				Name "Workflow Builder UI"
+    				Description "Allows users to construct structured workflows for intake, compliance, and research processes."
+    				DevTime 6
+    				Level 1
+    				CodeArt 0.9
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    			{
+    				Name "Data Form Designer"
+    				Description "Creates standardized forms for structured data collection across all lab systems."
+    				DevTime 6
+    				Level 2
+    				CodeArt 0.9
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    			{
+    				Name "Audit Trail Viewer"
+    				Description "Displays full history of system actions for compliance and research validation."
+    				DevTime 6
+    				Level 2
+    				CodeArt 0.85
+    				Submarkets [ 0; 1; 1 ]
+    			}
+    			{
+    				Name "Alert & Exception Panel"
+    				Description "Highlights errors, compliance issues, and research anomalies in real time."
+    				DevTime 6
+    				Level 2
+    				CodeArt 0.85
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    		]
+    	}
+    
+    	{
+    		Name System
+    		Spec System
+    		DevTime 3
+    		CodeArt 1
+    		Submarkets [ 1; 1; 1 ]
+    		Features
+    		[
+    			{
+    				Name "Data Record Viewer"
+    				Description "Displays structured records across patients, studies, and compliance cases."
+    				Server 0.0004
+    				DevTime 5
+    				Level 1
+    				CodeArt 1
+    				Submarkets [ 1; 0; 0 ]
+    			}
+    			{
+    				Name "Workflow Scheduling Engine"
+    				Description "Manages task timing and sequencing for lab, compliance, and research processes."
+    				Server 0.0004
+    				DevTime 5
+    				Level 1
+    				CodeArt 1
+    				Submarkets [ 1; 1; 0 ]
+    			}
+    			{
+    				Name "Administrative Processing Layer"
+    				Description "Handles billing, compliance actions, and structured operational tasks."
+    				Server 0.0003
+    				DevTime 5
+    				Level 1
+    				CodeArt 1
+    				Submarkets [ 0; 1; 0 ]
+    			}
+    			{
+    				Name "Case Lifecycle Manager"
+    				Description "Tracks progression of patients, studies, or compliance cases over time."
+    				Server 0.0004
+    				DevTime 6
+    				Level 2
+    				CodeArt 1
+    				Submarkets [ 1; 0; 1 ]
+    			}
+    			{
+    				Name "Structured Data Pipeline"
+    				Description "Routes and validates all incoming and outgoing lab and research data."
+    				Server 0.0004
+    				DevTime 6
+    				Level 2
+    				CodeArt 1
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    			{
+    				Name "Compliance Rule Engine"
+    				Description "Applies regulatory constraints and validation rules to system activity."
+    				Server 0.0005
+    				DevTime 7
+    				Level 2
+    				CodeArt 1
+    				Submarkets [ 0; 1; 1 ]
+    			}
+    			{
+    				Name "Research Cohort Manager"
+    				Description "Groups data into experimental and analytical cohorts for research tracking."
+    				Server 0.0005
+    				DevTime 7
+    				Level 2
+    				CodeArt 1
+    				Submarkets [ 1; 0; 1 ]
+    			}
+    			{
+    				Name "Workflow Automation Engine"
+    				Description "Automates task execution based on defined lab and compliance rules."
+    				Server 0.0006
+    				DevTime 8
+    				Level 2
+    				CodeArt 1
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    		]
+    	}
+    
+    	{
+    		Name Network
+    		Spec Network
+    		DevTime 4
+    		CodeArt 1
+    		Submarkets [ 1; 1; 1 ]
+    		Unlock 1987
+    		Features
+    		[
+    			{
+    				Name "Secure Data Transmission"
+    				Description "Encrypts and stabilizes data exchange between distributed lab systems."
+    				Server 0.0006
+    				DevTime 6
+    				Level 1
+    				CodeArt 1
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    			{
+    				Name "Distributed System Sync"
+    				Description "Keeps multiple lab installations synchronized across organizations."
+    				Server 0.0007
+    				DevTime 7
+    				Level 2
+    				CodeArt 1
+    				Submarkets [ 1; 1; 1 ]
+    			}
+    		]
+    	}
+    ]
+}

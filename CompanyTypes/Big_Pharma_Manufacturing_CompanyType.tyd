@@ -1,0 +1,12 @@
+CompanyType
+	{
+	Specialization		"Pharmaceutical Manufacturing"
+	PerYear				0.2
+	Min					1
+	Max					3
+	Frameworks			False
+	Types
+		[
+            { Software "Pharmaceuticals" Chance 0.7 }
+		]
+	}

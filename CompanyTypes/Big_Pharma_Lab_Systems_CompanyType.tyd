@@ -1,0 +1,13 @@
+CompanyType
+	{
+	Specialization		"Laboratory Systems Software"
+	PerYear				0.2
+	Min					2
+	Max					3
+	Frameworks			True
+	Types
+		[
+            { Software "Medical Equipment" Chance 0.85 }
+            { Software "Lab Systems" Chance 1.0 }
+		]
+	}

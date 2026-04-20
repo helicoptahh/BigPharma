@@ -43,9 +43,9 @@ The mod focuses on expanding industry variety and progression within Software In
 - Basic medical software 
 - Entry-level medical equiptment
 
-### Mid Game
+### Mid-Game
 - Expanded medical and device systems  
-- Further medical equiptment
+- Expanded medical equiptment
 
 ### Late Game
 - Experimental Drugs (get caught skipping human trials!)
@@ -64,6 +64,6 @@ Software types are designed to represent different sectors of the medical techno
 
 Big Pharma adds a structured set of medical-themed software categories to *Software Inc*, allowing players to develop companies focused on:
 
-- Medical software  
-- Medical Device Manufacturing 
-- Pharmaceutical Drug Manufacturing  
+- Medical Software
+- Medical Device Manufacturing
+- Pharmaceutical Drug Manufacturing

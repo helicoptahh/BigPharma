@@ -6,7 +6,7 @@ SoftwareType
 	Popularity 0.60
 	Retention 24
 	IdealPrice 90
-	OptimalDevTime 40
+	OptimalDevTime 55
 	OSSupport [ Computer; Phone ]
 	InHouse True
 	SubmarketNames [ Reliability; Convenience; Informational ]
@@ -16,6 +16,7 @@ SoftwareType
 	        Name            "Patient Intake"
 	        Description     "Patient intake portal for obtaining information for trials."
 	        Retention       24
+	        TimeScale       0.75
 	        Iterative       1
 	        Submarkets      [ 1; 1; 1 ]
 	        NameGenerator   Big_Pharma_LabSys_Generator
@@ -24,6 +25,7 @@ SoftwareType
 	        Name            "Compliance Software"
 	        Description     "Software that helps mandate and follow regulations by the government regarding medical compliance."
 	        Retention       24
+	        TimeScale       0.8
 	        Iterative       1
 	        Submarkets      [ 1; 1; 1 ]
 	        NameGenerator   Big_Pharma_LabSys_Generator
@@ -32,6 +34,7 @@ SoftwareType
 	        Name            "Medical R&D Portal"
 	        Description     "Portal to handle all things related to Research and Development of new medical equipment or drugs."
 	        Retention       24
+	        TimeScale       1
 	        Iterative       1
 	        Submarkets      [ 1; 1; 1 ]
 	        NameGenerator   Big_Pharma_LabSys_Generator

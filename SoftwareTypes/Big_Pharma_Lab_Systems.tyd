@@ -16,9 +16,8 @@ SoftwareType
 	        Description     "Patient intake portal for obtaining information for trials."
 	        Retention       24
 	        TimeScale       0.75
-	        Popularity 0.60
+	        Popularity      0.60
 	        Iterative       1
-	        Popularity      
 	        Submarkets      [ 1; 1; 1 ]
 	        NameGenerator   Big_Pharma_LabSys_Generator
 	        }
@@ -27,7 +26,7 @@ SoftwareType
 	        Description     "Software that helps mandate and follow regulations by the government regarding medical compliance."
 	        Retention       24
 	        TimeScale       0.8
-	        Popularity 0.60
+	        Popularity      0.60
 	        Iterative       1
 	        Submarkets      [ 1; 1; 1 ]
 	        NameGenerator   Big_Pharma_LabSys_Generator
@@ -37,7 +36,7 @@ SoftwareType
 	        Description     "Portal to handle all things related to Research and Development of new medical equipment or drugs."
 	        Retention       24
 	        TimeScale       1
-	        Popularity 0.60
+	        Popularity      0.60
 	        Iterative       1
 	        Submarkets      [ 1; 1; 1 ]
 	        NameGenerator   Big_Pharma_LabSys_Generator

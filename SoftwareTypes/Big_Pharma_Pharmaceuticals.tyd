@@ -376,7 +376,6 @@ SoftwareType
 			DevTime		10
 			CodeArt		0.85
 			Submarkets	[ 1; 1; 1 ]
-			Dependencies [ "Lab Systems" ]
 			Features
 				[
 					{
@@ -486,7 +485,6 @@ SoftwareType
             DevTime     2
             CodeArt     0.8
             Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Lab Systems" ]
             Features
             [
                 {

@@ -26,42 +26,42 @@ SoftwareType
 					[
 						{
 						Name "PCB" 
-						Price 12 
+						Price 36 
 						Time 10 
 						}
 						{ 
 						Name "Control Unit" 
-						Price 12 
+						Price 36 
 						Time 10 
 						}
 						{ 
 						Name "Microchip" 
-						Price 10 
+						Price 30 
 						Time 10 
 						}
 						{ 
 						Name "LCD" 
-						Price 8 
+						Price 24 
 						Time 6 
 						}
 						{ 
 						Name "PlasticCase" 
-						Price 6 
+						Price 18 
 						Time 6 
 						}
 						{ 
 						Name "Thermostat" 
-						Price 10 
+						Price 30 
 						Time 10 
 						}
 						{ 
 						Name "X-Ray Tube" 
-						Price 25 
+						Price 75 
 						Time 18 
 						}
 						{ 
 						Name "Imaging Core" 
-						Price 35 
+						Price 105 
 						Time 20 
 						}
 					]
@@ -103,42 +103,42 @@ SoftwareType
 					[
 						{ 
 						Name "PCB" 
-						Price 14 
+						Price 52 
 						Time 12 
 						}
 						{ 
 						Name "Control Unit" 
-						Price 12 
+						Price 56 
 						Time 10 
 						}
 						{ 
 						Name "Microchip" 
-						Price 12 
+						Price 54
 						Time 12 
 						}
 						{ 
 						Name "LCD" 
-						Price 10 
+						Price 48 
 						Time 8 
 						}
 						{ 
 						Name "PlasticCase" 
-						Price 8 
+						Price 65 
 						Time 8 
 						}
 						{ 
 						Name "Thermostat" 
-						Price 12 
+						Price 36 
 						Time 12 
 						}
 						{ 
 						Name "X-Ray Array" 
-						Price 40 
+						Price 95 
 						Time 22 
 						}
 						{ 
 						Name "Scan Core" 
-						Price 50 
+						Price 120 
 						Time 26 
 						}
 					]
@@ -181,47 +181,47 @@ SoftwareType
 					[
 						{ 
 						Name "PCB" 
-						Price 16 
+						Price 55 
 						Time 14 
 						}
 						{ 
 						Name "Control Unit" 
-						Price 12 
+						Price 60 
 						Time 10 
 						}
 						{ 
 						Name "Microchip" 
-						Price 14 
+						Price 52 
 						Time 14 
 						}
 						{ 
 						Name "LCD" 
-						Price 12 
+						Price 64 
 						Time 10 
 						}
 						{ 
 						Name "PlasticCase" 
-						Price 10 
+						Price 75 
 						Time 10 
 						}
 						{ 
 						Name "Thermostat" 
-						Price 14 
+						Price 48 
 						Time 14 
 						}
 						{ 
 						Name "Magnet Core" 
-						Price 60 
+						Price 180 
 						Time 30 
 						}
 						{ 
 						Name "Resonance Chamber" 
-						Price 70 
+						Price 155 
 						Time 34 
 						}
 						{ 
 						Name "Scan Core" 
-						Price 80 
+						Price 210 
 						Time 36 
 						}
 					]
@@ -257,7 +257,6 @@ SoftwareType
             DevTime     10
             CodeArt     0.85
             Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Lab Systems" ]
             Features
             [
                 {
@@ -334,7 +333,6 @@ SoftwareType
             DevTime     2
             CodeArt     0.8
             Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Lab Systems" ]
             Features
             [
                 {
